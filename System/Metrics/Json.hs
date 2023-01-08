@@ -16,7 +16,7 @@ module System.Metrics.Json
 
 import Data.Aeson ((.=))
 import qualified Data.Aeson.Types as A
-import qualified Data.HashMap.Strict as M
+import qualified Data.Aeson.KeyMap as M
 import Data.Int (Int64)
 import qualified Data.Text as T
 import qualified System.Metrics as Metrics
